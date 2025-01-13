@@ -39,7 +39,7 @@ nav {
 
 nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
 }
 
@@ -192,7 +192,7 @@ nav ul li a {
 }
 
 .contacts {
-  padding: 5rem 5rem; /* Reduced from 15rem to 5rem */
+  padding: 5rem 15rem;
   display: grid;
   gap: 6rem;
   grid-template-columns: 1fr 1fr;
@@ -235,7 +235,7 @@ nav ul li a {
 
 footer {
   background-color: #2a282a;
-  padding: 3rem 5rem;
+  padding: 5rem 15rem;
   color: white;
   display: grid;
   grid-template-columns: 6fr 2fr 2fr;
@@ -343,10 +343,12 @@ footer a {
   }
   .burger-btn {
     display: inline-block;
+    cursor: pointer;
   }
 
   footer {
-    padding: 5rem 5rem;
+    padding: 3rem 5rem;
+    height: auto;
   }
   .contacts,
   .accomplishments,
